@@ -8,4 +8,3 @@ public class CalcLogic {
 		return(a - b);
 	}
 }
-
