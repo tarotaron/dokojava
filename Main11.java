@@ -26,12 +26,18 @@ public class SuperHero extends Hero {
 
 	public void land() {
 		this.flying = false;
-		System.out.println("着地した////");
+		System.out.println("着地した");
+	}
+親クラスに定義してあるが、再定義で書き換える事ができる
+	public coid run() {
+		System.out.println("撤退した");
 	}
 }
 
 public class Main11 {
 	public static void main(String[] args) {
+		Hero h = new Hero();
+		h.run();
 		SuperHero sh = new SuperHero();
 		sh.run();
 	}
