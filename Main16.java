@@ -9,6 +9,6 @@ public class Main16{
 
 		fw.write('そ');
 		fw.write('れ');
-		fw.close()	;
+		fw.close();
 	}
 }
